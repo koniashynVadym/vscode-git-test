@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+      .boxAll {
+        border: 8px solid black;
+        height: 128px;
+        width: 512px;
+        padding: 16px;
+        margin: 16px;
+      }
+      .boxOff {
+        box-sizing: content-box;
+        background-color: aquamarine;
+      }
+      .boxIn {
+        box-sizing: border-box;
+        background-color: azure;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="boxOff boxAll">Content Box Sizing</div>
+    <div class="boxIn boxAll">Border Box Sizing</div>
+  </body>
+</html>
